@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct ElasticTimingFunction : TimingFunctionType {
+public struct ElasticTimingFunction : DirectionalTimingFunctionType, TimingFunctionType {
     
     public var curve: TimingCurve
     

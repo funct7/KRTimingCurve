@@ -27,6 +27,7 @@
 		D196E6BA247B9290005ED05E /* BounceTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6B9247B9290005ED05E /* BounceTimingFunction.swift */; };
 		D196E6C2247B938E005ED05E /* KRTimingCurveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6C1247B938E005ED05E /* KRTimingCurveTests.swift */; };
 		D196E6C4247B938E005ED05E /* KRTimingCurve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D196E68C247B7FF2005ED05E /* KRTimingCurve.framework */; };
+		D196E6CB247B98D4005ED05E /* DirectionalTimingFunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6CA247B98D4005ED05E /* DirectionalTimingFunctionType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		D196E6BF247B938E005ED05E /* KRTimingCurveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRTimingCurveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D196E6C1247B938E005ED05E /* KRTimingCurveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRTimingCurveTests.swift; sourceTree = "<group>"; };
 		D196E6C3247B938E005ED05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D196E6CA247B98D4005ED05E /* DirectionalTimingFunctionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionalTimingFunctionType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				D196E699247B823D005ED05E /* TimingFunctionType.swift */,
 				D196E69B247B8307005ED05E /* FractionTimingFunctionType.swift */,
+				D196E6CA247B98D4005ED05E /* DirectionalTimingFunctionType.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				D196E6AE247B8DAA005ED05E /* QuarticTimingFunction.swift in Sources */,
 				D196E6AA247B8BF2005ED05E /* TimingCurve.swift in Sources */,
 				D196E6A4247B875C005ED05E /* TimingCurve+Fraction.swift in Sources */,
+				D196E6CB247B98D4005ED05E /* DirectionalTimingFunctionType.swift in Sources */,
 				D196E69A247B823D005ED05E /* TimingFunctionType.swift in Sources */,
 				D196E6B6247B907D005ED05E /* BackTimingFunction.swift in Sources */,
 				D196E69F247B831A005ED05E /* LinearTimingFunction.swift in Sources */,

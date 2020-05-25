@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct QuadraticTimingFunction : FractionTimingFunctionType {
+public struct QuadraticTimingFunction : DirectionalTimingFunctionType, FractionTimingFunctionType {
     
     public var curve: TimingCurve
     

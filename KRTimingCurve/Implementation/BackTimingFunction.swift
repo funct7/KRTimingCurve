@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct BackTimingFunction : FractionTimingFunctionType {
+public struct BackTimingFunction : DirectionalTimingFunctionType, FractionTimingFunctionType {
     
     public var curve: TimingCurve
     
