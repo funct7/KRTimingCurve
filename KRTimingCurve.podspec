@@ -87,7 +87,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/funct7/KRTimingCurve.git", :tag => "#{spec.version}" }
-
+  spec.swift_version = "5.0"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
