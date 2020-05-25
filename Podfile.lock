@@ -1,0 +1,16 @@
+PODS:
+  - KRTimingFunction (1.0.0)
+
+DEPENDENCIES:
+  - KRTimingFunction (from `../KRTimingFunction`)
+
+EXTERNAL SOURCES:
+  KRTimingFunction:
+    :path: "../KRTimingFunction"
+
+SPEC CHECKSUMS:
+  KRTimingFunction: e07a0d46eed85d038c445abcd727ad2e4a5ef919
+
+PODFILE CHECKSUM: a547f4c6c6d634368613aa2b987abac243f2e9eb
+
+COCOAPODS: 1.9.1

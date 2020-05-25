@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A659474040A61A72443714E9BADACF5 /* KRTimingFunction+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12CF8382BD632C7BB1E7446573D612 /* KRTimingFunction+CGFloat.swift */; };
+		208B8B25A1729DA98A8E1E53D314DD00 /* KRTimingFunction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE010910724D23EB165AEAD72C198556 /* KRTimingFunction-dummy.m */; };
+		4CF80A62126E7D64C5651D071636B6C7 /* KRTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E454E62CDE6E4F91E7F8EB28F83CDD /* KRTimingFunction.swift */; };
+		53CECF9E65A2066B9B2FF9CDA67396A4 /* KRTimingFunction+Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF909B1A9BEE83C54430C7270A9C721F /* KRTimingFunction+Float.swift */; };
+		606F6C7AA0AE8646FE9C7068D92E68D4 /* Pods-KRTimingCurveTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1870E31FF126EF6B0E6021E757A82F /* Pods-KRTimingCurveTests-dummy.m */; };
+		7A796E35A9C59650FC5999E93A7B7633 /* Pods-KRTimingCurveTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADDA8B492C7F278ACD00E2D690F41F2 /* Pods-KRTimingCurveTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B0FCFBDD1738227C9BCABDB1920E76A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8CB7B1DF2DCBE4A74D06B9FC9515A95C /* KRTimingFunction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA87C7E9BB66BB0B74017365C1C342EA /* KRTimingFunction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C97B052BCF611B3E53E34E4B943A86C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B7E8E6EC1CECC30928909227DF81E673 /* FloatingPoint+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE690F229F7D0B093610A90753D5A77 /* FloatingPoint+Operators.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC27C8A856E26512EDA059306879795F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7623D378ECC914561B9D050C6DC49361;
+			remoteInfo = KRTimingFunction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034BD00A4F3C74CA2C61F1C99844DA00 /* KRTimingFunction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRTimingFunction.debug.xcconfig; sourceTree = "<group>"; };
+		0B5BE0C235426FB882391E7DF3B7A28C /* KRTimingFunction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRTimingFunction-Info.plist"; sourceTree = "<group>"; };
+		184ED105B1D06B4CA328C8CC7D2A5C84 /* Pods-KRTimingCurveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRTimingCurveTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E08C0C5EAD4C3A3699E94FC1BF4E096 /* Pods-KRTimingCurveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRTimingCurveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		371FBA556C5584747FDB5D1FC9368755 /* Pods-KRTimingCurveTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRTimingCurveTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41E454E62CDE6E4F91E7F8EB28F83CDD /* KRTimingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KRTimingFunction.swift; sourceTree = "<group>"; };
+		516456E6F0D5CDEDC098D2D6C148F6EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6ADDA8B492C7F278ACD00E2D690F41F2 /* Pods-KRTimingCurveTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRTimingCurveTests-umbrella.h"; sourceTree = "<group>"; };
+		8C875290D78815E86D498BC958C4DEC5 /* KRTimingFunction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KRTimingFunction.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE690F229F7D0B093610A90753D5A77 /* FloatingPoint+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Operators.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C62BF655B0A0BEFD5642C339C61E34 /* Pods-KRTimingCurveTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRTimingCurveTests.modulemap"; sourceTree = "<group>"; };
+		AA87C7E9BB66BB0B74017365C1C342EA /* KRTimingFunction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRTimingFunction-umbrella.h"; sourceTree = "<group>"; };
+		AAC8BB80FAC69ECF49B2E39D47A60829 /* KRTimingFunction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRTimingFunction.release.xcconfig; sourceTree = "<group>"; };
+		AD1870E31FF126EF6B0E6021E757A82F /* Pods-KRTimingCurveTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRTimingCurveTests-dummy.m"; sourceTree = "<group>"; };
+		AE010910724D23EB165AEAD72C198556 /* KRTimingFunction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRTimingFunction-dummy.m"; sourceTree = "<group>"; };
+		B3663406B47C96B79BA87EC7ECB53003 /* Pods_KRTimingCurveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRTimingCurveTests.framework; path = "Pods-KRTimingCurveTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F8F80F54A1EF124BD9B071D10043BA /* KRTimingFunction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRTimingFunction-prefix.pch"; sourceTree = "<group>"; };
+		CD50B791944B90FCED8AACC65C0A4FB2 /* KRTimingFunction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRTimingFunction.framework; path = KRTimingFunction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF12CF8382BD632C7BB1E7446573D612 /* KRTimingFunction+CGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "KRTimingFunction+CGFloat.swift"; sourceTree = "<group>"; };
+		E7BFB0D5E400C59947D43C8470587B3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E7F7090099714DFB1EF25C52886CFD8D /* Pods-KRTimingCurveTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRTimingCurveTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF4F137637A94AF06BE624BB4BDD3070 /* KRTimingFunction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRTimingFunction.modulemap; sourceTree = "<group>"; };
+		EF909B1A9BEE83C54430C7270A9C721F /* KRTimingFunction+Float.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "KRTimingFunction+Float.swift"; sourceTree = "<group>"; };
+		F1C376AD14970EC44FCB3365E8D0FA81 /* Pods-KRTimingCurveTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRTimingCurveTests-Info.plist"; sourceTree = "<group>"; };
+		F24E57F28989092B7EBA41672F8FEA9C /* Pods-KRTimingCurveTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRTimingCurveTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E9A3BC485720E65F913D1F542048E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0FCFBDD1738227C9BCABDB1920E76A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239A4DAC855C0FE895F83BCE8FB3DC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C97B052BCF611B3E53E34E4B943A86C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090AD22CE320F70FEBD48094AF178914 /* KRTimingFunction */ = {
+			isa = PBXGroup;
+			children = (
+				41793D9E31DD4ED11E4567DEA6CB470C /* Classes */,
+				B22025BE5554FB5094835D0D7160FFE2 /* Extensions */,
+				CD939B6A2D025BAEB27A1C7510269420 /* Pod */,
+				96116A14CA4063D9F0079209B4D9F4D5 /* Support Files */,
+			);
+			name = KRTimingFunction;
+			path = ../../KRTimingFunction;
+			sourceTree = "<group>";
+		};
+		26D9242AC080ABA2B4F57B86117C2BD9 /* Pods-KRTimingCurveTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C62BF655B0A0BEFD5642C339C61E34 /* Pods-KRTimingCurveTests.modulemap */,
+				E7F7090099714DFB1EF25C52886CFD8D /* Pods-KRTimingCurveTests-acknowledgements.markdown */,
+				371FBA556C5584747FDB5D1FC9368755 /* Pods-KRTimingCurveTests-acknowledgements.plist */,
+				AD1870E31FF126EF6B0E6021E757A82F /* Pods-KRTimingCurveTests-dummy.m */,
+				F24E57F28989092B7EBA41672F8FEA9C /* Pods-KRTimingCurveTests-frameworks.sh */,
+				F1C376AD14970EC44FCB3365E8D0FA81 /* Pods-KRTimingCurveTests-Info.plist */,
+				6ADDA8B492C7F278ACD00E2D690F41F2 /* Pods-KRTimingCurveTests-umbrella.h */,
+				2E08C0C5EAD4C3A3699E94FC1BF4E096 /* Pods-KRTimingCurveTests.debug.xcconfig */,
+				184ED105B1D06B4CA328C8CC7D2A5C84 /* Pods-KRTimingCurveTests.release.xcconfig */,
+			);
+			name = "Pods-KRTimingCurveTests";
+			path = "Target Support Files/Pods-KRTimingCurveTests";
+			sourceTree = "<group>";
+		};
+		41793D9E31DD4ED11E4567DEA6CB470C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				41E454E62CDE6E4F91E7F8EB28F83CDD /* KRTimingFunction.swift */,
+			);
+			name = Classes;
+			path = KRTimingFunction/Classes;
+			sourceTree = "<group>";
+		};
+		7D4BB2E0969A9971731F628C254D7EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD50B791944B90FCED8AACC65C0A4FB2 /* KRTimingFunction.framework */,
+				B3663406B47C96B79BA87EC7ECB53003 /* Pods_KRTimingCurveTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96116A14CA4063D9F0079209B4D9F4D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F137637A94AF06BE624BB4BDD3070 /* KRTimingFunction.modulemap */,
+				AE010910724D23EB165AEAD72C198556 /* KRTimingFunction-dummy.m */,
+				0B5BE0C235426FB882391E7DF3B7A28C /* KRTimingFunction-Info.plist */,
+				C0F8F80F54A1EF124BD9B071D10043BA /* KRTimingFunction-prefix.pch */,
+				AA87C7E9BB66BB0B74017365C1C342EA /* KRTimingFunction-umbrella.h */,
+				034BD00A4F3C74CA2C61F1C99844DA00 /* KRTimingFunction.debug.xcconfig */,
+				AAC8BB80FAC69ECF49B2E39D47A60829 /* KRTimingFunction.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../KRTimingCurve/Pods/Target Support Files/KRTimingFunction";
+			sourceTree = "<group>";
+		};
+		A6A29D04D5D7DE951CEA7CB8DB72A4F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26D9242AC080ABA2B4F57B86117C2BD9 /* Pods-KRTimingCurveTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B22025BE5554FB5094835D0D7160FFE2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9BE690F229F7D0B093610A90753D5A77 /* FloatingPoint+Operators.swift */,
+				DF12CF8382BD632C7BB1E7446573D612 /* KRTimingFunction+CGFloat.swift */,
+				EF909B1A9BEE83C54430C7270A9C721F /* KRTimingFunction+Float.swift */,
+			);
+			name = Extensions;
+			path = KRTimingFunction/Extensions;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD939B6A2D025BAEB27A1C7510269420 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C875290D78815E86D498BC958C4DEC5 /* KRTimingFunction.podspec */,
+				E7BFB0D5E400C59947D43C8470587B3E /* LICENSE */,
+				516456E6F0D5CDEDC098D2D6C148F6EA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F64DAF7366C607DA0D692C36C06D30AA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7D4BB2E0969A9971731F628C254D7EC4 /* Products */,
+				A6A29D04D5D7DE951CEA7CB8DB72A4F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F64DAF7366C607DA0D692C36C06D30AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				090AD22CE320F70FEBD48094AF178914 /* KRTimingFunction */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69AD997A62678F47421DBC08BAF39E96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A796E35A9C59650FC5999E93A7B7633 /* Pods-KRTimingCurveTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E8B62A0C4FF85520B1EEFFB3DDFB20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB7B1DF2DCBE4A74D06B9FC9515A95C /* KRTimingFunction-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7623D378ECC914561B9D050C6DC49361 /* KRTimingFunction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E691CF38A9D6EBBDF68A08B163C684 /* Build configuration list for PBXNativeTarget "KRTimingFunction" */;
+			buildPhases = (
+				B1E8B62A0C4FF85520B1EEFFB3DDFB20 /* Headers */,
+				420B785B3F38E610805B24554BE25901 /* Sources */,
+				239A4DAC855C0FE895F83BCE8FB3DC80 /* Frameworks */,
+				88E3D34EED269909240156768F45CC62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRTimingFunction;
+			productName = KRTimingFunction;
+			productReference = CD50B791944B90FCED8AACC65C0A4FB2 /* KRTimingFunction.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8ADAEBEDBB0E94B302AF11C4D29A938 /* Pods-KRTimingCurveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E514869F9F86B4CE4FDAEE87F58514 /* Build configuration list for PBXNativeTarget "Pods-KRTimingCurveTests" */;
+			buildPhases = (
+				69AD997A62678F47421DBC08BAF39E96 /* Headers */,
+				B1DED5CAA8672B85DF9E87D8A06FBA6F /* Sources */,
+				0E9A3BC485720E65F913D1F542048E10 /* Frameworks */,
+				D53E10FDE6094E9A3DCB111A8EB427F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C7E838A4E1DC1A8B9940E222020516 /* PBXTargetDependency */,
+			);
+			name = "Pods-KRTimingCurveTests";
+			productName = "Pods-KRTimingCurveTests";
+			productReference = B3663406B47C96B79BA87EC7ECB53003 /* Pods_KRTimingCurveTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7D4BB2E0969A9971731F628C254D7EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7623D378ECC914561B9D050C6DC49361 /* KRTimingFunction */,
+				F8ADAEBEDBB0E94B302AF11C4D29A938 /* Pods-KRTimingCurveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88E3D34EED269909240156768F45CC62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53E10FDE6094E9A3DCB111A8EB427F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420B785B3F38E610805B24554BE25901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E8E6EC1CECC30928909227DF81E673 /* FloatingPoint+Operators.swift in Sources */,
+				1A659474040A61A72443714E9BADACF5 /* KRTimingFunction+CGFloat.swift in Sources */,
+				53CECF9E65A2066B9B2FF9CDA67396A4 /* KRTimingFunction+Float.swift in Sources */,
+				208B8B25A1729DA98A8E1E53D314DD00 /* KRTimingFunction-dummy.m in Sources */,
+				4CF80A62126E7D64C5651D071636B6C7 /* KRTimingFunction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DED5CAA8672B85DF9E87D8A06FBA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606F6C7AA0AE8646FE9C7068D92E68D4 /* Pods-KRTimingCurveTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C7E838A4E1DC1A8B9940E222020516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRTimingFunction;
+			target = 7623D378ECC914561B9D050C6DC49361 /* KRTimingFunction */;
+			targetProxy = CC27C8A856E26512EDA059306879795F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14832629834E1BDE4DA9E0C3BCEEDFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC8BB80FAC69ECF49B2E39D47A60829 /* KRTimingFunction.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRTimingFunction/KRTimingFunction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRTimingFunction/KRTimingFunction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRTimingFunction/KRTimingFunction.modulemap";
+				PRODUCT_MODULE_NAME = KRTimingFunction;
+				PRODUCT_NAME = KRTimingFunction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D188BD696E83F50D6F6E9BE795A1ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 034BD00A4F3C74CA2C61F1C99844DA00 /* KRTimingFunction.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRTimingFunction/KRTimingFunction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRTimingFunction/KRTimingFunction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRTimingFunction/KRTimingFunction.modulemap";
+				PRODUCT_MODULE_NAME = KRTimingFunction;
+				PRODUCT_NAME = KRTimingFunction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA5892AB697876FBB1394D08423E4DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184ED105B1D06B4CA328C8CC7D2A5C84 /* Pods-KRTimingCurveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRTimingCurveTests/Pods-KRTimingCurveTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRTimingCurveTests/Pods-KRTimingCurveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7E9187562354CB4083D3D7F9562C308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E08C0C5EAD4C3A3699E94FC1BF4E096 /* Pods-KRTimingCurveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRTimingCurveTests/Pods-KRTimingCurveTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRTimingCurveTests/Pods-KRTimingCurveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E514869F9F86B4CE4FDAEE87F58514 /* Build configuration list for PBXNativeTarget "Pods-KRTimingCurveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E9187562354CB4083D3D7F9562C308 /* Debug */,
+				CA5892AB697876FBB1394D08423E4DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2E691CF38A9D6EBBDF68A08B163C684 /* Build configuration list for PBXNativeTarget "KRTimingFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D188BD696E83F50D6F6E9BE795A1ACE /* Debug */,
+				14832629834E1BDE4DA9E0C3BCEEDFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
