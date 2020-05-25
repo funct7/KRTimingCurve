@@ -2,15 +2,21 @@ PODS:
   - KRTimingFunction (1.0.0)
 
 DEPENDENCIES:
-  - KRTimingFunction (from `../KRTimingFunction`)
+  - KRTimingFunction (from `https://github.com/BridgeTheGap/KRTimingFunction.git`, branch `swift5`)
 
 EXTERNAL SOURCES:
   KRTimingFunction:
-    :path: "../KRTimingFunction"
+    :branch: swift5
+    :git: https://github.com/BridgeTheGap/KRTimingFunction.git
+
+CHECKOUT OPTIONS:
+  KRTimingFunction:
+    :commit: b619afe74876f674d19010ff02cdcde75da1f287
+    :git: https://github.com/BridgeTheGap/KRTimingFunction.git
 
 SPEC CHECKSUMS:
   KRTimingFunction: e07a0d46eed85d038c445abcd727ad2e4a5ef919
 
-PODFILE CHECKSUM: a547f4c6c6d634368613aa2b987abac243f2e9eb
+PODFILE CHECKSUM: ef19574fb8472881cfa9a273fdfd404249bc6e22
 
 COCOAPODS: 1.9.1
