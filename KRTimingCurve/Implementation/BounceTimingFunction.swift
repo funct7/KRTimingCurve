@@ -22,7 +22,7 @@ public struct BounceTimingFunction : FractionTimingFunctionType {
         case .easeIn:
             var copy = self
             copy.curve = .easeOut
-            return c - copy.apply(fraction: rt, initialValue: b, change: c)
+            return c - copy.apply(fraction: 1.0-rt, initialValue: 0, change: c) + b
 
         case .easeOut:
             var rt = rt
@@ -37,10 +37,13 @@ public struct BounceTimingFunction : FractionTimingFunctionType {
             }
         case .easeInOut:
             var copy = self
-            copy.curve = rt < 0.5 ? .easeIn : .easeOut
-            return rt < 0.5
-                ? copy.apply(fraction: rt*2, initialValue: 0, change: c) * 0.5 + b
-                : copy.apply(fraction: rt*2 - 1, initialValue: 0, change: c) * 0.5 + c*0.5 + b
+            if rt < 0.5 {
+                copy.curve = .easeIn
+                return copy.apply(fraction: rt*2, initialValue: 0, change: c) * 0.5 + b
+            } else {
+                copy.curve = .easeOut
+                return copy.apply(fraction: rt*2 - 1, initialValue: 0, change: c) * 0.5 + c*0.5 + b
+            }
         }
     }
     

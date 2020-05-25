@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,7 @@
 		D196E69A247B823D005ED05E /* TimingFunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E699247B823D005ED05E /* TimingFunctionType.swift */; };
 		D196E69C247B8307005ED05E /* FractionTimingFunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E69B247B8307005ED05E /* FractionTimingFunctionType.swift */; };
 		D196E69F247B831A005ED05E /* LinearTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E69E247B831A005ED05E /* LinearTimingFunction.swift */; };
-		D196E6A1247B86AA005ED05E /* SineTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A0247B86AA005ED05E /* SineTimingFunction.swift */; };
+		D196E6A1247B86AA005ED05E /* SinusoidalTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A0247B86AA005ED05E /* SinusoidalTimingFunction.swift */; };
 		D196E6A4247B875C005ED05E /* TimingCurve+Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A3247B875C005ED05E /* TimingCurve+Fraction.swift */; };
 		D196E6A6247B87FC005ED05E /* QuadraticTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A5247B87FC005ED05E /* QuadraticTimingFunction.swift */; };
 		D196E6A8247B8BE0005ED05E /* Double+Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A7247B8BE0005ED05E /* Double+Operator.swift */; };
@@ -50,7 +50,7 @@
 		D196E699247B823D005ED05E /* TimingFunctionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingFunctionType.swift; sourceTree = "<group>"; };
 		D196E69B247B8307005ED05E /* FractionTimingFunctionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractionTimingFunctionType.swift; sourceTree = "<group>"; };
 		D196E69E247B831A005ED05E /* LinearTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearTimingFunction.swift; sourceTree = "<group>"; };
-		D196E6A0247B86AA005ED05E /* SineTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6A0247B86AA005ED05E /* SinusoidalTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinusoidalTimingFunction.swift; sourceTree = "<group>"; };
 		D196E6A3247B875C005ED05E /* TimingCurve+Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimingCurve+Fraction.swift"; sourceTree = "<group>"; };
 		D196E6A5247B87FC005ED05E /* QuadraticTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticTimingFunction.swift; sourceTree = "<group>"; };
 		D196E6A7247B8BE0005ED05E /* Double+Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Operator.swift"; sourceTree = "<group>"; };
@@ -102,7 +102,6 @@
 				313DDA9A78040C84AB001CCA /* Pods-KRTimingCurveTests.debug.xcconfig */,
 				2F3DCEEF1C098D00E39F4EDB /* Pods-KRTimingCurveTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,7 +152,7 @@
 			children = (
 				D196E6A9247B8BF2005ED05E /* TimingCurve.swift */,
 				D196E69E247B831A005ED05E /* LinearTimingFunction.swift */,
-				D196E6A0247B86AA005ED05E /* SineTimingFunction.swift */,
+				D196E6A0247B86AA005ED05E /* SinusoidalTimingFunction.swift */,
 				D196E6A5247B87FC005ED05E /* QuadraticTimingFunction.swift */,
 				D196E6AB247B8D39005ED05E /* CubicTimingFunction.swift */,
 				D196E6AD247B8DAA005ED05E /* QuarticTimingFunction.swift */,
@@ -339,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D196E6A1247B86AA005ED05E /* SineTimingFunction.swift in Sources */,
+				D196E6A1247B86AA005ED05E /* SinusoidalTimingFunction.swift in Sources */,
 				D196E6B4247B8FB1005ED05E /* CircularTimingFunction.swift in Sources */,
 				D196E6AE247B8DAA005ED05E /* QuarticTimingFunction.swift in Sources */,
 				D196E6AA247B8BF2005ED05E /* TimingCurve.swift in Sources */,
