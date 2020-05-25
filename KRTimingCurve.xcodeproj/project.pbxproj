@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D196E691247B7FF2005ED05E /* KRTimingCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = D196E68F247B7FF2005ED05E /* KRTimingCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D196E69A247B823D005ED05E /* TimingFunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E699247B823D005ED05E /* TimingFunctionType.swift */; };
+		D196E69C247B8307005ED05E /* FractionTimingFunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E69B247B8307005ED05E /* FractionTimingFunctionType.swift */; };
+		D196E69F247B831A005ED05E /* LinearTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E69E247B831A005ED05E /* LinearTimingFunction.swift */; };
+		D196E6A1247B86AA005ED05E /* SineTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A0247B86AA005ED05E /* SineTimingFunction.swift */; };
+		D196E6A4247B875C005ED05E /* TimingCurve+Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A3247B875C005ED05E /* TimingCurve+Fraction.swift */; };
+		D196E6A6247B87FC005ED05E /* QuadraticTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A5247B87FC005ED05E /* QuadraticTimingFunction.swift */; };
+		D196E6A8247B8BE0005ED05E /* Double+Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A7247B8BE0005ED05E /* Double+Operator.swift */; };
+		D196E6AA247B8BF2005ED05E /* TimingCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6A9247B8BF2005ED05E /* TimingCurve.swift */; };
+		D196E6AC247B8D39005ED05E /* CubicTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6AB247B8D39005ED05E /* CubicTimingFunction.swift */; };
+		D196E6AE247B8DAA005ED05E /* QuarticTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6AD247B8DAA005ED05E /* QuarticTimingFunction.swift */; };
+		D196E6B0247B8E10005ED05E /* QuinticTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6AF247B8E10005ED05E /* QuinticTimingFunction.swift */; };
+		D196E6B2247B8E8F005ED05E /* ExponentialTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6B1247B8E8F005ED05E /* ExponentialTimingFunction.swift */; };
+		D196E6B4247B8FB1005ED05E /* CircularTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6B3247B8FB1005ED05E /* CircularTimingFunction.swift */; };
+		D196E6B6247B907D005ED05E /* BackTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6B5247B907D005ED05E /* BackTimingFunction.swift */; };
+		D196E6B8247B91EE005ED05E /* ElasticTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6B7247B91EE005ED05E /* ElasticTimingFunction.swift */; };
+		D196E6BA247B9290005ED05E /* BounceTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D196E6B9247B9290005ED05E /* BounceTimingFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,6 +31,22 @@
 		D196E68F247B7FF2005ED05E /* KRTimingCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRTimingCurve.h; sourceTree = "<group>"; };
 		D196E690247B7FF2005ED05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D196E697247B802B005ED05E /* KRTimingCurve.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = KRTimingCurve.podspec; sourceTree = SOURCE_ROOT; };
+		D196E699247B823D005ED05E /* TimingFunctionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingFunctionType.swift; sourceTree = "<group>"; };
+		D196E69B247B8307005ED05E /* FractionTimingFunctionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractionTimingFunctionType.swift; sourceTree = "<group>"; };
+		D196E69E247B831A005ED05E /* LinearTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6A0247B86AA005ED05E /* SineTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6A3247B875C005ED05E /* TimingCurve+Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimingCurve+Fraction.swift"; sourceTree = "<group>"; };
+		D196E6A5247B87FC005ED05E /* QuadraticTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6A7247B8BE0005ED05E /* Double+Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Operator.swift"; sourceTree = "<group>"; };
+		D196E6A9247B8BF2005ED05E /* TimingCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingCurve.swift; sourceTree = "<group>"; };
+		D196E6AB247B8D39005ED05E /* CubicTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6AD247B8DAA005ED05E /* QuarticTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarticTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6AF247B8E10005ED05E /* QuinticTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinticTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6B1247B8E8F005ED05E /* ExponentialTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponentialTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6B3247B8FB1005ED05E /* CircularTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6B5247B907D005ED05E /* BackTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6B7247B91EE005ED05E /* ElasticTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElasticTimingFunction.swift; sourceTree = "<group>"; };
+		D196E6B9247B9290005ED05E /* BounceTimingFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceTimingFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,10 +80,50 @@
 		D196E68E247B7FF2005ED05E /* KRTimingCurve */ = {
 			isa = PBXGroup;
 			children = (
+				D196E6A2247B8754005ED05E /* Extension */,
+				D196E698247B8234005ED05E /* Protocol */,
+				D196E69D247B830E005ED05E /* Implementation */,
 				D196E68F247B7FF2005ED05E /* KRTimingCurve.h */,
 				D196E690247B7FF2005ED05E /* Info.plist */,
 			);
 			path = KRTimingCurve;
+			sourceTree = "<group>";
+		};
+		D196E698247B8234005ED05E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D196E699247B823D005ED05E /* TimingFunctionType.swift */,
+				D196E69B247B8307005ED05E /* FractionTimingFunctionType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D196E69D247B830E005ED05E /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				D196E6A9247B8BF2005ED05E /* TimingCurve.swift */,
+				D196E69E247B831A005ED05E /* LinearTimingFunction.swift */,
+				D196E6A0247B86AA005ED05E /* SineTimingFunction.swift */,
+				D196E6A5247B87FC005ED05E /* QuadraticTimingFunction.swift */,
+				D196E6AB247B8D39005ED05E /* CubicTimingFunction.swift */,
+				D196E6AD247B8DAA005ED05E /* QuarticTimingFunction.swift */,
+				D196E6AF247B8E10005ED05E /* QuinticTimingFunction.swift */,
+				D196E6B1247B8E8F005ED05E /* ExponentialTimingFunction.swift */,
+				D196E6B3247B8FB1005ED05E /* CircularTimingFunction.swift */,
+				D196E6B5247B907D005ED05E /* BackTimingFunction.swift */,
+				D196E6B7247B91EE005ED05E /* ElasticTimingFunction.swift */,
+				D196E6B9247B9290005ED05E /* BounceTimingFunction.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		D196E6A2247B8754005ED05E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D196E6A3247B875C005ED05E /* TimingCurve+Fraction.swift */,
+				D196E6A7247B8BE0005ED05E /* Double+Operator.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +169,7 @@
 				TargetAttributes = {
 					D196E68B247B7FF2005ED05E = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -133,6 +206,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D196E6A1247B86AA005ED05E /* SineTimingFunction.swift in Sources */,
+				D196E6B4247B8FB1005ED05E /* CircularTimingFunction.swift in Sources */,
+				D196E6AE247B8DAA005ED05E /* QuarticTimingFunction.swift in Sources */,
+				D196E6AA247B8BF2005ED05E /* TimingCurve.swift in Sources */,
+				D196E6A4247B875C005ED05E /* TimingCurve+Fraction.swift in Sources */,
+				D196E69A247B823D005ED05E /* TimingFunctionType.swift in Sources */,
+				D196E6B6247B907D005ED05E /* BackTimingFunction.swift in Sources */,
+				D196E69F247B831A005ED05E /* LinearTimingFunction.swift in Sources */,
+				D196E6A6247B87FC005ED05E /* QuadraticTimingFunction.swift in Sources */,
+				D196E6B8247B91EE005ED05E /* ElasticTimingFunction.swift in Sources */,
+				D196E6A8247B8BE0005ED05E /* Double+Operator.swift in Sources */,
+				D196E6B0247B8E10005ED05E /* QuinticTimingFunction.swift in Sources */,
+				D196E6AC247B8D39005ED05E /* CubicTimingFunction.swift in Sources */,
+				D196E69C247B8307005ED05E /* FractionTimingFunctionType.swift in Sources */,
+				D196E6B2247B8E8F005ED05E /* ExponentialTimingFunction.swift in Sources */,
+				D196E6BA247B9290005ED05E /* BounceTimingFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +351,7 @@
 		D196E695247B7FF2005ED05E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8HCBQJDHQ6;
@@ -279,6 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.knowre.KRTimingCurve;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +378,7 @@
 		D196E696247B7FF2005ED05E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8HCBQJDHQ6;
