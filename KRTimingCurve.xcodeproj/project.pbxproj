@@ -14,6 +14,7 @@
 		D196E68C247B7FF2005ED05E /* KRTimingCurve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRTimingCurve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D196E68F247B7FF2005ED05E /* KRTimingCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRTimingCurve.h; sourceTree = "<group>"; };
 		D196E690247B7FF2005ED05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D196E697247B802B005ED05E /* KRTimingCurve.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = KRTimingCurve.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +31,7 @@
 		D196E682247B7FF2005ED05E = {
 			isa = PBXGroup;
 			children = (
+				D196E697247B802B005ED05E /* KRTimingCurve.podspec */,
 				D196E68E247B7FF2005ED05E /* KRTimingCurve */,
 				D196E68D247B7FF2005ED05E /* Products */,
 			);
@@ -188,7 +190,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -245,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
